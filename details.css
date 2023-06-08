@@ -1,0 +1,36 @@
+body{
+  background: black;
+}
+
+.card,
+.card2 {
+  background-color: #f2f2f2;
+  border: 5px solid black;
+  width: 700px;
+  text-align: center;
+  font-weight: bold;
+  background: violet;
+  border-radius: 10%;
+  font-size: 20px;  
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+.card img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  background: yellow;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f2f2f2;
+  text-align: center;
+  background: black;
+}

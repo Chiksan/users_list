@@ -1,0 +1,86 @@
+body {
+  background: violet;
+  background-image: url(img/343212-Tanjirou-Tanjiro-Kamado-Demon-Slayer-Kimetsu-no-Yaiba-Anime-Kimetsu-no-Yaiba-.jpg);
+  background-size: contain;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.image {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.card {
+  width: 300px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 70px;
+  background: #4B0082;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  /* display: flex; */
+  /* align-items: end; */
+  margin-left: 20px;
+  background-image: url(img/milky-way-2695569_1280.jpg);
+}
+
+ email {
+    font-size: 20px;
+}
+
+ button:hover {
+  background-color: #45a049;
+}
+
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 15px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #f00;
+}
+
+
